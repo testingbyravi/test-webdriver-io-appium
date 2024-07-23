@@ -1,0 +1,40 @@
+{
+  "name": "test-webdriverio-appium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serenity": "failsafe serenity:update serenity:clean test serenity:report",
+    "serenity:update": "serenity-bdd update",
+    "serenity:clean": "rimraf target",
+    "test": "wdio run ./wdio.conf.ts",
+    "serenity:report": "serenity-bdd run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "latest",
+    "@serenity-js/assertions": "latest",
+    "@serenity-js/console-reporter": "latest",
+    "@serenity-js/core": "latest",
+    "@serenity-js/cucumber": "latest",
+    "@serenity-js/rest": "latest",
+    "@serenity-js/serenity-bdd": "latest",
+    "@serenity-js/web": "latest",
+    "@serenity-js/webdriverio": "latest",
+    "@types/cucumber": "^7.0.0",
+    "@types/node": "latest",
+    "@wdio/appium-service": "latest",
+    "@wdio/cucumber-framework": "^8.39.0",
+    "@wdio/globals": "^8.39.1",
+    "@wdio/local-runner": "latest",
+    "@wdio/types": "^8.39.0",
+    "appium-uiautomator2-driver": "latest",
+    "multiple-cucumber-html-reporter": "^3.7.0",
+    "npm-failsafe": "latest",
+    "rimraf": "latest",
+    "ts-node": "latest",
+    "typescript": "^5.5.4",
+    "webdriverio": "^8.39.1"
+  }
+}
