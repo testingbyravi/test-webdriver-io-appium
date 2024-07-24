@@ -47,10 +47,13 @@
 
 
 7.  Run tests & package.json
-    Run below comman in terminal
-    [npm run e2e]
+    7.1 Run below command in terminal to execute test
+    [npm run test]
 
-8.  Serenity Reports
+    7.2 Run below command in terminal to execute test and generate serenity report
+    [npm run serenity]
+
+9.  Serenity Reports
 
     Serenity BDD is a powerful reporting and documentation tool for behavior-driven development (BDD) and test automation. It provides detailed and structured reports of your test results, helping you to visualize and analyze test execution.
     Integration with WebdriverIO
